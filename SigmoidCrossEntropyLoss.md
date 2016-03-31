@@ -34,5 +34,4 @@ Translate it to the equation is:
 Please look at here
 http://caffecn.cn/?/question/25
 
-
-  
+Other loss layer http://blog.csdn.net/chenriwei2/article/details/45291739
