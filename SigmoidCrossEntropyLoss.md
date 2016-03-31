@@ -30,11 +30,5 @@ caffe_sub(count, sigmoid_output_data, target, bottom_diff);
 Translate it to the equation is:  
 `diff=sigmoid(x)-y=1/(1+exp(-x))-y`
 
-latexImg = function(latex){
-
-    link = paste0('http://latex.codecogs.com/gif.latex?',
-           gsub('\\=','%3D',URLencode(latex)))
-
-    link = gsub("(%..)","\\U\\1",link,perl=TRUE)
-    return(paste0('![](',link,')'))
-}
+![equation](http://latex.codecogs.com/gif.latex?E%20%3D%20%5Cfrac%7B-1%7D%7Bn%7D%20%5Csum%5Climits_%7Bn%3D1%7D%5EN%20%5Cleft%5B%20p_n%20%5Clog%20%5Chat%7Bp%7D_n%20&plus;%20%281%20-%20p_n%29%20%5Clog%281%20-%20%5Chat%7Bp%7D_n%29%20%5Cright%5D)  
+  
