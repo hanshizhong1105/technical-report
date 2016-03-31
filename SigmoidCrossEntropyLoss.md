@@ -31,11 +31,8 @@ Translate it to the equation is:
 `diff=sigmoid(x)-y=1/(1+exp(-x))-y`
 
 ##Loss Functoin Derivation
-The loss function of cross entroy is as following:  
-![equation](http://latex.codecogs.com/gif.latex?E%20%3D%20%5Cfrac%7B-1%7D%7Bn%7D%20%5Csum%5Climits_%7Bn%3D1%7D%5EN%20%5Cleft%5B%20p_n%20%5Clog%20%5Chat%7Bp%7D_n%20&plus;%20%281%20-%20p_n%29%20%5Clog%281%20-%20%5Chat%7Bp%7D_n%29%20%5Cright%5D)  
-For Each example the loss is  
-![equation](http://latex.codecogs.com/gif.latex?loss%20%3D%20-%20p_n%20%5Clog%20%5Chat%7Bp%7D_n%20&plus;%20%281%20-%20p_n%29%20%5Clog%281%20-%20%5Chat%7Bp%7D_n%29)  
-The estimated probablity ![equation](http://latex.codecogs.com/gif.latex?%5Chat%7Bp%7D_n%3D%5Cfrac%7B1%7D%7B1&plus;e%5E%7Bx-2x*%28x%5Cgeqslant%200%29%29%7D%7D), and put it in the above loss funciton. The loss will become  
+Please look at here
+http://caffecn.cn/?/question/25
 
 
   
